@@ -14,9 +14,8 @@ b = int(input("Введите В: "))
 
 def sum(a, b):
     if a == 0:
-        print(b)
         return b
     return sum(a-1, b+1)
 
-sum(a,b)
+print(sum(a,b))
 
